@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 });
 
 // Use the messages router
-app.use("/messages", messageHandler);    
+app.use("/user/api/v1/messages", messageHandler);    
 
 // Start the server
 app.listen(port, () => {
